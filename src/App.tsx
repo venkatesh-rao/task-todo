@@ -1,25 +1,21 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "semantic-ui-css/semantic.min.css";
+import TodoList from "./components/TodoList";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.tsx</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div
+        style={{
+          width: "40vw",
+          margin: "10px auto",
+          borderRadius: 20,
+          // border: '#ededed solid 1px',
+          padding: 30
+          // boxShadow: '0px 1px 5px 0px #0000001c',
+        }}
+      >
+        <TodoList />
       </div>
     );
   }

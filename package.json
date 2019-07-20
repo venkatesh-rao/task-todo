@@ -2,6 +2,8 @@
   "name": "task-todo",
   "version": "0.1.0",
   "private": true,
+  "repository": "https://github.com/venkatesh-rao/task-todo.git",
+  "author": "venkatesh-rao <venkatvr897@gmail.com>",
   "dependencies": {
     "@types/jest": "24.0.9",
     "@types/node": "11.10.4",
